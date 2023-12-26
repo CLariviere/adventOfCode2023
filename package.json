@@ -1,0 +1,24 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "AOC 2023",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsc --build",
+      "test": "bun test \"src\""
+  },
+  "devDependencies": {
+      "@types/jasmine": "~4.3.6",
+      "@types/lodash": "^4.14.202",
+      "@types/node": "~18.16.20",
+      "@types/pathfinding": "0.0.9",
+      "bun": "^1.0.15",
+      "typescript": "^5.3.3"
+  },
+  "dependencies": {
+      "@datastructures-js/priority-queue": "^6.3.0",
+      "js-combinatorics": "2.1.2",
+      "lodash": "^4.17.21",
+      "pathfinding": "0.4.18"
+  }
+}
